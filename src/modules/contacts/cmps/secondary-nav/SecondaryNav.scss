@@ -1,0 +1,12 @@
+.secondary-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #764134;
+    margin-bottom: 20px;
+    .flat-btn{
+        color: #000000;
+        font-family: Montserrat;
+    }
+}

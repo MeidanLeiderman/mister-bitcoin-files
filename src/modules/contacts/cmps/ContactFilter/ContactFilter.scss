@@ -1,0 +1,20 @@
+@import '../../../../assets/fonts/Monteserrat/Montserrat-Regular.ttf';
+
+.filter-container{
+    height: 9vh;
+    background-color: #764134;
+    display: flex;
+    justify-content: center;
+    input{
+        width: 100%;
+        border-style: none;
+        outline: none;
+        background-color:rgba(255, 255, 255, 0);
+        color: #000000;
+        font-family: Montserrat;
+        font-size: 1.2rem;
+    }
+    ::placeholder{
+        color: #0000009a;
+    }
+}

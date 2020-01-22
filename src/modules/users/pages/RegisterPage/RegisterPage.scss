@@ -1,0 +1,17 @@
+.register-page{
+    background-color: #2A1A1F;
+    min-height: calc(100vh - 9vh);
+    .register-form{
+        padding-top: 20px;
+    }
+    input{
+        width: 240px;
+        padding: 10px;
+        border-style: none;
+        background-color: #AFA060;
+    }
+    button{
+        border: none;
+        margin: none;
+    }
+}

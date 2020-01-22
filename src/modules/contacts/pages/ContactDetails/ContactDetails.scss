@@ -1,0 +1,64 @@
+.contact-details-page{
+    min-height: 90vh;
+    background-color: #2A1A1F;
+
+    .transfer-section{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+
+        input{
+            width: 60%;
+            padding: 10px;
+            background-color: #AFA060;
+            border-style: none;
+            outline: none;
+            color: #000000;
+            font-family: Montserrat;
+            font-size: 1rem;
+        }
+        ::placeholder{
+            color: #0000009a;
+        }
+        .form-btn{
+            width: 40%;
+            border-style: none;
+            background-color: #764134;
+            padding: 10px;
+            cursor: pointer;
+        }
+    }
+    
+}
+
+.contact-details{
+    img{
+        width: 70px;
+        height: auto;
+        margin-bottom: 10px;
+
+    }
+    span{
+        color: #AFA060;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+@media (min-width: 480px) {
+    .contact-details-page{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .contact-details-container{
+            display: flex;
+            flex-direction: row;
+            div{
+                // margin-right: 20px;
+                padding: 0 20px;
+            }
+        }
+    }
+}

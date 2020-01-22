@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: Montserrat;
+}
+
+a{
+    text-emphasis: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h1,h2,h3,h4,h5,h6{
+    display: block;
+    font-size: 0.83em;
+    margin: 0;
+    font-weight: normal;
+}
+
+.home-page-container{
+    background-color: #2A1A1F;
+    min-height: calc(100vh - 9vh);
+    .graph-section{
+        padding-top: 10px;
+    }
+}
+
+.home-container{
+    background-color: #764134;
+    height: 9vh;
+    >*{
+        color: black;
+        font-weight: 700;
+    }
+}
+
+.container2{
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+.container{
+    margin: 0 20px;
+}
+.disconnected-message{
+    padding: 20px 0;
+    color: #AD8350;
+
+}

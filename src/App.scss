@@ -1,0 +1,17 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(./assets/fonts/Monteserrat/Montserrat-Regular.ttf);
+}
+
+@import './style/helpers.scss';
+
+.App {
+  display: flex;
+  flex-direction: column; 
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
